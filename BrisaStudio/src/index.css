@@ -1,3 +1,9 @@
+/*Fontes: 
+font-family: 'Perpetua Titling MT', sans-serif; 
+font-family: 'Numans', sans-serif;
+font-family: 'Nunito', sans-serif; */
+
+
 /*Configuração Geral Css*/
 
 *{
@@ -14,7 +20,8 @@ html{
 
 .ContainerHeaderSuperior{
     background-color: aquamarine;
-    color: rgba(3, 48, 89, 1);
+    color: rgba(3, 48, 89, 1); 
+    font-family: 'Numans', sans-serif;
 
     padding: 20px;
     width: 90vw;
