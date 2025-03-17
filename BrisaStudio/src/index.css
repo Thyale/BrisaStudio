@@ -1,0 +1,48 @@
+/*Configuração Geral Css*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    height: 100vh;
+    width: 100vw;
+}
+
+/*Header Superior*/
+
+.ContainerHeaderSuperior{
+    background-color: aquamarine;
+    color: rgba(3, 48, 89, 1);
+
+    padding: 20px;
+    width: 90vw;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+.ContainerHeaderSuperior a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    gap: 10px;
+}
+
+.ContainerHeaderSuperior img{
+    width: 30px;
+}
+
+.ContainerHeaderSuperior_BtnAirbnb{
+    border: 1px solid rgba(3, 48, 89, 1);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+
