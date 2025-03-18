@@ -2,7 +2,11 @@ function Capa() {
     return (
       <>
         <div className="ContainerCapa">
-            <h1>ola</h1>
+            <div>
+                <h1>Descubra um refúgio perfeito para sua estadia!</h1>
+                <p>Experimente conforto, tecnologia e uma localização privilegiada neste incrível espaço projetado para garantir sua melhor experiência</p>
+                <button><a  href="https://www.airbnb.com.br/rooms/1343039998077854644?source_impression_id=p3_1741390927_P3wiD7qpC9DTRR70&check_in=2025-03-21&guests=2&adults=2&check_out=2025-03-23" target="_Blank">Reserve agora no Airbnb</a></button>
+            </div>
         </div>
       </>
     )

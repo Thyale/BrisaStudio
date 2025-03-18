@@ -135,9 +135,66 @@ header a:hover{
 .ContainerCapa{
     width: 90vw;
     margin: auto;
-    background-color: aquamarine;
-    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media screen and (max-width: 768px){}
+.ContainerCapa div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10vh 0px 10vh 0px;
+}
+
+.ContainerCapa h1{
+    text-align: center;
+    font-family: 'Perpetua Titling MT', sans-serif;
+    font-size: 64px;
+    color: white;
+    max-width: 752px;
+}
+
+.ContainerCapa p{
+    color: white;
+    width: 80vw;
+    max-width: 598px;
+    font-family: 'Numans', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.ContainerCapa button{
+    background-color: rgba(115, 32, 2, 1);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.255);
+}
+
+.ContainerCapa button:hover{
+    background-color: rgb(128, 34, 0);
+}
+
+.ContainerCapa a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Numans', sans-serif;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px){
+    .ContainerCapa h1{
+        font-size: 40px;
+    }
+    .ContainerCapa p{
+        font-size: 14px;
+    }
+    
+    .ContainerCapa a{
+        font-size: 14px;
+    }
+}
 
