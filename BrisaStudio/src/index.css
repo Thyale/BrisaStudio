@@ -19,8 +19,6 @@ html{
 /*Header Superior*/
 
 .ContainerHeaderSuperior{
-    background-color: aquamarine;
-    color: rgba(3, 48, 89, 1); 
     font-family: 'Numans', sans-serif;
 
     padding: 20px;
@@ -35,11 +33,16 @@ html{
 }
 
 .ContainerHeaderSuperior a{
+    color: rgba(3, 48, 89, 1); 
     display: flex;
     flex-direction: row;
     text-decoration: none;
     align-items: center;
     gap: 10px;
+}
+
+.ContainerHeaderSuperior a:hover{
+   color: rgba(5, 131, 242, 1);
 }
 
 .ContainerHeaderSuperior img{
@@ -52,4 +55,89 @@ html{
     border-radius: 20px;
 }
 
+.ContainerHeaderSuperior_BtnAirbnb:hover {
+    border: 1px solid rgba(5, 131, 242, 1);
+}
+
+@media screen and (max-width: 768px){
+    .ContainerHeaderSuperior p{
+        display: none;
+    }
+    .ContainerHeaderSuperior_BtnAirbnb{
+        border: none;
+    }
+    .ContainerHeaderSuperior_BtnAirbnb:hover {
+        border:none;
+    }
+}
+
+/*Configuração geral da capa principal, que junta a capa e o header*/
+
+.ContainerCapaPrincipal{
+    background-image: url(./assets/images/ImgBGCapa.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Header - Barra principal - dentro da capa inicial do site*/
+
+header{
+    backdrop-filter: blur(5px);
+    font-family: 'Numans', sans-serif;
+    font-size: 16px;
+    padding: 10px 0px;
+}
+
+header div{
+    width: 90vw;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 70px;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+}
+
+header a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: rgba(3, 48, 89, 1);
+}
+
+@media screen and (max-width: 768px){
+    header div{
+        justify-content: center;
+    }
+    header ul{
+        display: none;
+    }
+}
+
+/*Capa */
+
+.ContainerCapa{
+    width: 90vw;
+    margin: auto;
+    background-color: aquamarine;
+    height: 60vh;
+}
+
+@media screen and (max-width: 768px){}
 
