@@ -207,6 +207,7 @@ header a:hover{
 .ContainerTecnologia{
     width: 90vw;
     margin: auto;
+    margin-top: 20px;
 }
 
 .ContainerTecnologia img{
@@ -251,5 +252,43 @@ header a:hover{
     
     .ContainerTecnologia a{
         font-size: 12px;
+    }
+}
+
+/* Sessão sobre tecnologia */
+
+.ContainerAreaInterna{
+    width: 90vw;
+    margin: auto;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.ContainerAreaInterna h2{
+    font-family: 'Numans', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    border-left: 3px solid rgba(5, 131, 242, 1);
+    padding:10px;
+    margin-bottom: 10px;
+}
+
+.ContainerAreaInterna p{
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    max-width: 500px ;
+}
+
+
+@media screen and (max-width: 768px){
+    .ContainerAreaInterna h2{
+        font-size: 16px;
+    }
+    
+    .ContainerAreaInterna p{
+        font-size: 14px;
     }
 }
