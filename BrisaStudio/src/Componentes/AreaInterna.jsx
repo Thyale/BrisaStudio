@@ -1,5 +1,4 @@
-import ImgAreaInternaCapa from "../assets/images/ImgAreaInternaCapa.jpeg"
-import ImgAreaInterna1 from "../assets/images/ImgAreaInterna1.jpeg"
+import ImgAreaInterna1 from "../assets/images/ImgAreaInterna7.jpeg"
 import ImgAreaInterna2 from "../assets/images/ImgAreaInterna2.jpeg"
 import ImgAreaInterna3 from "../assets/images/ImgAreaInterna3.jpeg"
 import ImgAreaInterna4 from "../assets/images/ImgAreaInterna4.jpeg"
@@ -14,21 +13,12 @@ function AreaInterna() {
             <p>Curta cada detalhe do nosso espaço interno, pensado para proporcionar o máximo de bem-estar.</p>
         </div>
         <div className="ContainerAreaInterna_ContainerImgs">
-            <div className="ContainerAreaInterna_ContainerImgs_ImgMenores">
-                <div>
-                    <img src={ImgAreaInterna1} alt="Imagem do apartamento, área Interna" />
-                    <img src={ImgAreaInterna2} alt="Imagem do apartamento, área Interna" />
-                </div>
-                <div>
-                    <img src={ImgAreaInterna3} alt="Imagem do apartamento, área Interna" />
-                    <img src={ImgAreaInterna4} alt="Imagem do apartamento, área Interna" />
-                </div>
-                <div>
-                    <img src={ImgAreaInterna5} alt="Imagem do apartamento, área Interna" />
-                    <img src={ImgAreaInterna6} alt="Imagem do apartamento, área Interna" />
-                </div>
-            </div>
-            <img className="ContainerAreaInterna_ContainerImg_Capa" src={ImgAreaInternaCapa} alt="Imagem Principal do apartamento" />
+            <img src={ImgAreaInterna1} alt="Imagem do apartamento, área Interna" />
+            <img src={ImgAreaInterna2} alt="Imagem do apartamento, área Interna" />
+            <img src={ImgAreaInterna3} alt="Imagem do apartamento, área Interna" />
+            <img src={ImgAreaInterna4} alt="Imagem do apartamento, área Interna" />
+            <img src={ImgAreaInterna5} alt="Imagem do apartamento, área Interna" />
+            <img src={ImgAreaInterna6} alt="Imagem do apartamento, área Interna" />
         </div>
     </div>
   )
