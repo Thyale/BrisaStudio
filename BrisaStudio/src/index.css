@@ -222,3 +222,48 @@ header img{
         font-size: 12px;
     }
 }
+
+/*Sessão Fotos internas do apartamento*/
+
+
+
+/*Sessão sobre informações*/
+
+.ContainerInfos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    gap: 20px;
+    width: 80vw;
+    margin: auto;
+}
+
+.ContainerInfos_Info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    color: rgba(3, 48, 89, 1);
+}
+
+.ContainerInfos_Info img{
+    width: 70px;
+}
+
+
+@media screen and (max-width: 768px){
+    .ContainerInfos_Info{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .ContainerInfos{
+        justify-content: center;
+    }
+}
