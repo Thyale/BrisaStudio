@@ -133,7 +133,7 @@ header img{
 }
 
 .ContainerCapa a:hover{
-    background-color: rgb(123, 33, 0);
+    background-color: rgb(138, 37, 0);
 }
 
 @media screen and (max-width: 768px){
@@ -151,5 +151,74 @@ header img{
     
     .ContainerCapa a{
         font-size: 14px;
+    }
+}
+
+/*Sessão sobre tecnologia*/
+
+.ContainerTecnologia{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.ContainerTecnologia img{
+    width: 200px;
+}
+
+.ContainerTecnologia_Textos{
+    width: 100%;
+    max-width: 600px;
+}
+
+.ContainerTecnologia_Textos h2{
+    font-family: 'Numans', sans-serif;
+    font-weight: 100;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.ContainerTecnologia_Textos p{
+    font-family: 'Numans', sans-serif;
+    font-size: 16px;
+    color: rgba(58, 58, 58, 1);
+    margin-bottom: 20px;
+}
+
+.ContainerTecnologia_Textos a{
+    color:rgba(4, 99, 7, 1) ;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.ContainerTecnologia_Textos a:hover{
+    color:rgb(4, 122, 8) ;
+}
+
+@media screen and (max-width: 768px){
+    .ContainerTecnologia{
+        justify-content: start;
+    }
+    
+    .ContainerTecnologia img{
+        width: 200px;
+    }
+    
+    .ContainerTecnologia_Textos h2{
+        font-size: 16px;
+    }
+    
+    .ContainerTecnologia_Textos p{
+        font-size: 14px;
+    }
+    
+    .ContainerTecnologia_Textos a{
+        font-size: 12px;
     }
 }
