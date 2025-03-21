@@ -3,6 +3,7 @@ import FotosInternas from "./Componentes/FotosInternas"
 import HeaderSuperior from "./Componentes/HeaderSuperior"
 import InfosContainer from "./Componentes/InfosContainer"
 import SessInicial from "./Componentes/SessInicial"
+import SaibaMais from "./Componentes/SaibaMais"
 import Tecnologia from "./Componentes/Tecnologia"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <FotosInternas/>
       <InfosContainer/>
       <AreaExterna/>
+      <SaibaMais/>
     </>
   )
 }
