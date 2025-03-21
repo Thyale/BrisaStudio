@@ -27,6 +27,7 @@ body{
 
     padding: 20px;
     width: 80vw;
+    max-width: 1400px;
     margin: auto;
 
     display: flex;
@@ -89,6 +90,7 @@ header{
     width: 80vw;
     margin: auto;
     padding: 10px 0px;
+    max-width: 1400px;
 }
 
 header img{
@@ -101,6 +103,7 @@ header img{
     width: 80vw;
     margin: auto;
     padding: 10vh 0px;
+    max-width: 1400px;  
 }
 
 .ContainerCapa h1{
@@ -159,6 +162,7 @@ header img{
 .ContainerTecnologia{
     width: 80vw;
     margin: auto;
+    max-width: 1400px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -227,6 +231,7 @@ header img{
 
 .ContainerFotosInternas{
     padding: 20px 0px;
+    max-width: 1400px;
     width: 80vw;
     margin: auto;
     display: flex;
@@ -272,7 +277,7 @@ header img{
 
 .ContainerFotosInternas_Imgs img{
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     border-radius: 10px;
 }
 
@@ -293,6 +298,7 @@ header img{
 
 .ContainerInfos{
     display: flex;
+    max-width: 1400px;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -334,14 +340,14 @@ header img{
 
 .ContainerAreaExterna{
     padding: 20px 0px;
+    max-width: 1400px;
     width: 80vw;
     margin: auto;
     gap: 20px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     gap: 20px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .ContainerAreaExterna_Textos h2{
@@ -380,7 +386,6 @@ header img{
 
 .ContainerAreaExterna_Imgs{
     width: 100%;
-    max-width: 600px;
     display: flex;
     flex-direction: row;
     scrollbar-width: thin;
@@ -393,6 +398,7 @@ header img{
 .ContainerAreaExterna_Imgs img{
     width: 100%;
     border-radius: 10px;
+    max-width: 500px;
 }
 
 @media screen and (max-width: 768px){
