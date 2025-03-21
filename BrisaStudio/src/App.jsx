@@ -1,3 +1,5 @@
+import AreaExterna from "./Componentes/AreaExterna"
+import FotosInternas from "./Componentes/FotosInternas"
 import HeaderSuperior from "./Componentes/HeaderSuperior"
 import InfosContainer from "./Componentes/InfosContainer"
 import SessInicial from "./Componentes/SessInicial"
@@ -9,8 +11,9 @@ function App() {
       <HeaderSuperior/>
       <SessInicial/>
       <Tecnologia/>
-      /*Sessão Fotos internas do apartamento*/
+      <FotosInternas/>
       <InfosContainer/>
+      <AreaExterna/>
     </>
   )
 }
