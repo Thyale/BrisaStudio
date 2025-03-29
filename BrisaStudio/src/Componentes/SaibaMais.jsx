@@ -10,7 +10,7 @@ function SaibaMais() {
       distance: "50px", 
       delay: 200, 
       easing: "ease-in-out", 
-      reset: true,
+      reset: false,
     });
   }, []);
 
